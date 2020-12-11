@@ -20,7 +20,15 @@ class aria2(aria2p.API):
         "rpc-listen-all" : "false",
         "rpc-listen-port": "6800",
         "seed-ratio" : "0",
-        "seed-time" : "0"
+        "seed-time" : "0.1",
+        "rpc-max-request-size" : "1024M",
+        "bt-max-peers" : "0",
+        "min-split-size" : "10M",
+        "follow-torrent" : "mem",
+        "split" : "10",
+        "max-overall-upload-limit" : "1K"
+        
+        
     }
     __process = None
 
